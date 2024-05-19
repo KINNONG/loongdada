@@ -1,7 +1,7 @@
 package com.kinloong.loongdada.mapper;
 
-import com.kinloong.loongdada.model.entity.ScoringResult;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.kinloong.loongdada.model.entity.ScoringResult;
 
 /**
 * @author KINNONG

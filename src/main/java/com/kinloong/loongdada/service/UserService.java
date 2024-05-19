@@ -6,8 +6,9 @@ import com.kinloong.loongdada.model.dto.user.UserQueryRequest;
 import com.kinloong.loongdada.model.entity.User;
 import com.kinloong.loongdada.model.vo.LoginUserVO;
 import com.kinloong.loongdada.model.vo.UserVO;
-import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 用户服务

@@ -1,20 +1,16 @@
 package com.kinloong.loongdada.controller;
 
 import cn.hutool.core.io.FileUtil;
-import com.kinloong.loongdada.exception.BusinessException;
 import com.kinloong.loongdada.common.BaseResponse;
 import com.kinloong.loongdada.common.ErrorCode;
 import com.kinloong.loongdada.common.ResultUtils;
 import com.kinloong.loongdada.constant.FileConstant;
+import com.kinloong.loongdada.exception.BusinessException;
 import com.kinloong.loongdada.manager.CosManager;
 import com.kinloong.loongdada.model.dto.file.UploadFileRequest;
 import com.kinloong.loongdada.model.entity.User;
 import com.kinloong.loongdada.model.enums.FileUploadBizEnum;
 import com.kinloong.loongdada.service.UserService;
-import java.io.File;
-import java.util.Arrays;
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,6 +18,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.util.Arrays;
 
 /**
  * 文件接口

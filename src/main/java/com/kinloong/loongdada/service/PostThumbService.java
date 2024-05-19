@@ -1,7 +1,7 @@
 package com.kinloong.loongdada.service;
 
-import com.kinloong.loongdada.model.entity.PostThumb;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.kinloong.loongdada.model.entity.PostThumb;
 import com.kinloong.loongdada.model.entity.User;
 
 /**

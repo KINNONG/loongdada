@@ -1,7 +1,7 @@
 package com.kinloong.loongdada.mapper;
 
-import com.kinloong.loongdada.model.entity.PostThumb;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.kinloong.loongdada.model.entity.PostThumb;
 
 /**
  * 帖子点赞数据库操作

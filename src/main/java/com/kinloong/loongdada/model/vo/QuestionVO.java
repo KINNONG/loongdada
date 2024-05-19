@@ -1,8 +1,6 @@
 package com.kinloong.loongdada.model.vo;
 
 import cn.hutool.json.JSONUtil;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.kinloong.loongdada.model.dto.question.QuestionContentDTO;
 import com.kinloong.loongdada.model.entity.Question;
 import lombok.Data;

@@ -3,27 +3,28 @@ package com.kinloong.loongdada.service.impl;
 import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.kinloong.loongdada.common.ErrorCode;
 import com.kinloong.loongdada.constant.CommonConstant;
 import com.kinloong.loongdada.constant.UserConstant;
 import com.kinloong.loongdada.exception.BusinessException;
 import com.kinloong.loongdada.mapper.UserMapper;
-import com.kinloong.loongdada.service.UserService;
-import com.kinloong.loongdada.common.ErrorCode;
 import com.kinloong.loongdada.model.dto.user.UserQueryRequest;
 import com.kinloong.loongdada.model.entity.User;
 import com.kinloong.loongdada.model.enums.UserRoleEnum;
 import com.kinloong.loongdada.model.vo.LoginUserVO;
 import com.kinloong.loongdada.model.vo.UserVO;
+import com.kinloong.loongdada.service.UserService;
 import com.kinloong.loongdada.utils.SqlUtils;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 用户服务实现

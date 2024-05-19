@@ -2,10 +2,10 @@ package com.kinloong.loongdada.model.dto.postfavour;
 
 import com.kinloong.loongdada.common.PageRequest;
 import com.kinloong.loongdada.model.dto.post.PostQueryRequest;
-
-import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
 
 /**
  * 帖子收藏查询请求
